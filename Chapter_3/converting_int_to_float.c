@@ -21,6 +21,9 @@ int main() {
     f2 = (float) i2 / 100; //type cast operator
     printf("%f\n",f2); // the i2 variable is converted to a float first but not permanently
 
+    f2 = i2 / (float) 100; //type cast operator
+    printf("%f\n",f2); //if either one of the values (float) then the other one is taken as a flaot
+
     return 0;
 
 }
