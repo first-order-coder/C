@@ -16,12 +16,10 @@ int main(void){
         scanf("%i", &grade);
 
         gradeTotal += grade;
-
         if (grade < 65) {
             faliureCount++;
         }
     }
-
     averageGrade = (float) gradeTotal / numberofGrades;
 
     printf("\nGrade average = %.2f\n", averageGrade);
