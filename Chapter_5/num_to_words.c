@@ -9,14 +9,13 @@ int main(void)
     printf("Enter the digit\n");
     scanf("%i", &digit);
 
-    while (digit != 0)
+    while (digit >= 0)
     {
         num = digit % 10;
         arr[i] = num;
-        i++;
+        i++; // when this loop finishes: i = 3, i is equal to 3
         digit = digit / 10;    
     }
-
     for (j = i - 1; j > -1; j--){
         if (arr[j] == 0)
             printf("zero ");
