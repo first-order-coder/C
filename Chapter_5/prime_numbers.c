@@ -1,9 +1,10 @@
 #include <stdio.h>
+#include <stdbool.h>
 
 int main(void)
 {
     int p, d;
-    _Bool isPrime;
+    bool isPrime;
 
     for (p = 2; p <= 50; p++){
         isPrime = 1;
