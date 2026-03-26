@@ -16,7 +16,7 @@ int main(void)
 
             for (j = 2; i * j <= n; j++)
             {
-                p[i * j] = 1;
+                p[i * j] = 1; // multiples of p[i] are marked as 1 so they are not prime
             }
         }
 
