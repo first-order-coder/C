@@ -34,7 +34,7 @@ int lookup(const struct entry dictionary[], const char serach[], const int entri
     {
         mid = (low + high) / 2;
         result = compareStrings(dictionary[mid].word, serach);
-
+        
         if(result == -1)
             low = mid + 1;
         else if(result == 1)
