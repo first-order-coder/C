@@ -6,13 +6,13 @@ bool equalStrings(const char s1[], const char s2[])
     int i = 0;
     bool areEqual;
 
-    while(s1[i] == s2[i] && s1[i] != '\0' && s2[i] != '\0')
+    while(s1[i] == s2[i] && s1[i] != '\0' && s2[i] != '\0') //if either one of the the conditions become false, then this loop stops
         i++;
     
     if(s1[i] == '\0' && s2[i] == '\0')
         areEqual = true;
     else
-        areEqual = false;
+        areEqual = false; 
     
     return areEqual;
 }
