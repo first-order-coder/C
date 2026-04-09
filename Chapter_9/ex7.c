@@ -21,7 +21,7 @@ void insertString(char source[], char text[], int start){
 
 int main(void){
 
-    char text[25] = "the wrong son";
+    char text[25] = "the angry son";
 
     insertString(text, "per", 10);
 
