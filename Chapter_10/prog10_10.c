@@ -20,7 +20,7 @@ struct entry *findEntry(struct entry *listPtr, int match) //this function return
 //each entry in the linked list can only be accessed from the previous one
 int main(void)
 {
-    struct entry *findEntry(struct entry *listPtr, int match);
+    struct entry *findEntry(struct entry *listPtr, int match); //listPtr is a pointer 
     struct entry n1, n2, n3;
     struct entry *listPtr, *listStart = &n1;
 
