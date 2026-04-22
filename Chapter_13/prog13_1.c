@@ -6,7 +6,7 @@ int main(void)
 {
     enum month {January = 1, February, March, April, May, June, July, 
                 August, September, Octomber, November, December};
-    enum month aMonth;
+    enum month aMonth; //the only values can be assigned to this are between 1 and 12 or names of the 12 months
     int        days;
 
     printf("Enter month number: ");
