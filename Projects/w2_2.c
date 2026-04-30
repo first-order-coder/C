@@ -33,6 +33,7 @@ int main(void)
     int choice;
     int running = 1;
 
+    while(running) {
     printf("\n");
     print_mode(currentMode);
 
@@ -65,7 +66,10 @@ int main(void)
         default:
             printf("Invalid Choice\n");
             break;
-    }    
+        } 
+    }
+    
+    return 0;
 }
 
 // executing sequence is 1) Print current mode -> 2) Show Menu -> 3) User enters choice -> 4) switch(choice) changes currentMode -> 5) Loop repeats -> 6) print_mode(currentMode) prints the new mode
